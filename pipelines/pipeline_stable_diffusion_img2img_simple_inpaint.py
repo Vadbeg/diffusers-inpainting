@@ -113,7 +113,7 @@ def prepare_mask(
     return mask
 
 
-class StableDiffusionImg2ImgPipeline(
+class StableDiffusionSimpleInpaintingPipeline(
     DiffusionPipeline, TextualInversionLoaderMixin, LoraLoaderMixin, FromSingleFileMixin
 ):
     r"""

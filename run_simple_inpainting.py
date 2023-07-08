@@ -7,7 +7,7 @@ import PIL.Image
 import torch
 import typer
 
-from pipelines import StableDiffusionImg2ImgPipeline  # type: ignore
+from pipelines import StableDiffusionSimpleInpaintingPipeline  # type: ignore
 
 app = typer.Typer(pretty_exceptions_show_locals=False)
 
@@ -65,7 +65,7 @@ def run_inpainting(
     else:
         raise ValueError(f"Unknown dtype: {dtype}")
 
-    pipeline = StableDiffusionImg2ImgPipeline.from_pretrained(
+    pipeline = StableDiffusionSimpleInpaintingPipeline.from_pretrained(
         pretrained_model_name_or_path=model_id,
         torch_dtype=dtype_torch,
     )
