@@ -11,6 +11,8 @@ or
 [StableDiffusionInpaintPipelineLegacy](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_legacy.py)
 from 🤗 Diffusers library.
 
+![inpainting](images/inpainting.png)
+
 ## Installation
 
 1. Create a virtual environment:
@@ -27,6 +29,7 @@ pip install -r requirements.txt
 
 To run use command below:
 ```shell
+python run_simple_inpainting.py --device cuda:1 --prompt "Face of a yellow cat, high resolution, sitting on a park bench" --strength 0.95 --seed 0
 ```
 
 ## Built With
