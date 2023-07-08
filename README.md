@@ -2,8 +2,11 @@
 
 ![License](https://img.shields.io/github/license/Vadbeg/diffusers-inpainting)
 
-This is a repository for image inpainting with any Stable Diffusion finetune. 
+This is a repository for image inpainting with any Stable Diffusion finetune.
 Even when it wasn't trained on inpainting task. Code is based on pipeline from huggingface 🤗 Diffusers library.
+
+It is simple learning project, it is better to use
+[StableDiffusionInpaintPipelineLegacy](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_legacy.py) from 🤗 Diffusers library.
 
 ## Installation
 
@@ -26,7 +29,7 @@ To run use command below:
 ## Built With
 
 * [🤗 Diffusers](https://github.com/apple/coremltools) - Huggingface diffusion models library
-* [Typer](https://typer.tiangolo.com/) - CLI framework 
+* [Typer](https://typer.tiangolo.com/) - CLI framework
 
 
 ## License
