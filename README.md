@@ -32,6 +32,12 @@ To run use command below:
 python run_simple_inpainting.py --device cuda:1 --prompt "Face of a yellow cat, high resolution, sitting on a park bench" --strength 0.95 --seed 0
 ```
 
+## Diffusion inpainting process
+
+![inpainting](images/inpainting_process.gif)
+
+This gif was created by decoding latent features at each step of the diffusion process.
+
 ## Built With
 
 * [🤗 Diffusers](https://github.com/apple/coremltools) - Huggingface diffusion models library
@@ -40,7 +46,7 @@ python run_simple_inpainting.py --device cuda:1 --prompt "Face of a yellow cat, 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Authors
 
