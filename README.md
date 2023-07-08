@@ -2,11 +2,14 @@
 
 ![License](https://img.shields.io/github/license/Vadbeg/diffusers-inpainting)
 
-This is a repository for image inpainting with any Stable Diffusion finetune.
-Even when it wasn't trained on inpainting task. Code is based on pipeline from huggingface 🤗 Diffusers library.
+This is a repository for image inpainting with a Stable Diffusion finetunes which
+weren't trained on inpainting task. Code is based on pipeline from huggingface 🤗 Diffusers library.
 
-It is simple learning project, it is better to use
-[StableDiffusionInpaintPipelineLegacy](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_legacy.py) from 🤗 Diffusers library.
+It is a simple learning project, it is better to use
+[StableDiffusionInpaintPipeline](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py)
+or
+[StableDiffusionInpaintPipelineLegacy](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_legacy.py)
+from 🤗 Diffusers library.
 
 ## Installation
 
@@ -18,7 +21,7 @@ virtualenv -p python3.9 .venv && source .venv/bin/activate
 ```shell
 pip install -r requirements.txt
 ```
-3. Use the project :tada:
+3. Use the project 🎉
 
 ## Usage
 
